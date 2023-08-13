@@ -1,13 +1,10 @@
-import {Text} from 'react-native';
+import {ThemeSwitcher} from '@/infra/theme';
+import {Router} from './router';
 
 export const App = () => {
   return (
-    <Text
-      style={{
-        color: 'red',
-        fontSize: 20,
-      }}>
-      Hello World
-    </Text>
+    <ThemeSwitcher theme="dark">
+      <Router />
+    </ThemeSwitcher>
   );
 };

@@ -1,15 +1,10 @@
-export default {
+import {hexToRgba} from '@/utils/colors';
+
+export const darkTheme = {
   COLORS: {
-    INPUT_DISABLED: '#F0F0F0',
-    INPUT_BORDER: '#000',
-    TITLE: '#fff',
-    TITLE_200: 'rgba(255, 255, 255, 0.2)',
-    TITLE_800: 'rgba(255, 255, 255, 0.8)',
-    INACTIVE_TEXT: 'rgba(255, 255, 255, 0.5)',
-    HELP_TEXT: 'rgba(148, 148, 148, 1)',
-    MODAL_PLACEHOLDER_TEXT_FIELD: '#949494',
-    BACKGROUND: '#1C1C1C',
-    CTA_NUTRI: '#4F9D43',
+    PRIMARY: '#48F797',
+    BACKGROUND: '#0C0F0A',
+    BACKGROUND_SURFACE: '#171916',
     BACKGROUND_000: 'rgba(28,28,28,0)',
     BACKGROUND_400: 'rgba(28,28,28,0.4)',
     BACKGROUND_100: 'rgba(28,28,28,1)',
@@ -18,17 +13,13 @@ export default {
     BACKGROUND_DARKER_400: 'rgba(0,0,0,0.4)',
     BACKGROUND_DARKER_500: 'rgba(0,0,0,0.5)',
     BACKGROUND_DARKER_800: 'rgba(0, 0, 0, 0.8)',
-    GRAY_BORDER: '#D9D9D9',
-    SKELETON: '#434343',
-    SKELETON_LIGHT_COLOR: '#DADADA',
-    SKELETON_INVERSE_BACKGROUND: '#CCCCCC',
-    MODAL_BACKGROUND: '#fff',
-    MODAL_CONTROLLER_BACKGROUND: '#ACACAC',
-    MODAL_INPUT_LABEL: '#000',
-    MODAL_TEXT_PLACEHOLDER: '#949494',
-    MODAL_HELP_TEXT: '#5F5F5F',
-    SPOTIFY_GREEN: '#1ED760',
 
+    TEXT: {
+      PRIMARY: '#FFF',
+      PRIMARY_700: hexToRgba('#FFF', 70),
+      PRIMARY_800: hexToRgba('#FFF', 80),
+      PRIMARY_900: hexToRgba('#FFF', 90),
+    },
     CARDS: {
       TEXT_COLOR: '#FFF',
       SUBTITLE_COLOR: '#808080',

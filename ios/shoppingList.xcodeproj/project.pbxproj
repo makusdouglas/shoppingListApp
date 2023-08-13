@@ -12,6 +12,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		415434432A8886AC00BF542A /* Effra-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4154343A2A8886AB00BF542A /* Effra-Medium.ttf */; };
+		415434442A8886AC00BF542A /* LEMONMILK-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4154343B2A8886AB00BF542A /* LEMONMILK-Light.otf */; };
+		415434452A8886AC00BF542A /* Effra-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4154343C2A8886AB00BF542A /* Effra-Heavy.ttf */; };
+		415434462A8886AC00BF542A /* LEMONMILK-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4154343D2A8886AB00BF542A /* LEMONMILK-Bold.otf */; };
+		415434472A8886AC00BF542A /* Effra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4154343E2A8886AC00BF542A /* Effra-Regular.ttf */; };
+		415434482A8886AC00BF542A /* LEMONMILK-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4154343F2A8886AC00BF542A /* LEMONMILK-Medium.otf */; };
+		415434492A8886AC00BF542A /* LEMONMILK-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 415434402A8886AC00BF542A /* LEMONMILK-Regular.otf */; };
+		4154344A2A8886AC00BF542A /* Effra-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 415434412A8886AC00BF542A /* Effra-Light.ttf */; };
+		4154344B2A8886AC00BF542A /* Effra-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 415434422A8886AC00BF542A /* Effra-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-shoppingList-shoppingListTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-shoppingList-shoppingListTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +47,15 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = shoppingList/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-shoppingList-shoppingListTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shoppingList-shoppingListTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-shoppingList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingList.debug.xcconfig"; path = "Target Support Files/Pods-shoppingList/Pods-shoppingList.debug.xcconfig"; sourceTree = "<group>"; };
+		4154343A2A8886AB00BF542A /* Effra-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Effra-Medium.ttf"; sourceTree = "<group>"; };
+		4154343B2A8886AB00BF542A /* LEMONMILK-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Light.otf"; sourceTree = "<group>"; };
+		4154343C2A8886AB00BF542A /* Effra-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Effra-Heavy.ttf"; sourceTree = "<group>"; };
+		4154343D2A8886AB00BF542A /* LEMONMILK-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Bold.otf"; sourceTree = "<group>"; };
+		4154343E2A8886AC00BF542A /* Effra-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Effra-Regular.ttf"; sourceTree = "<group>"; };
+		4154343F2A8886AC00BF542A /* LEMONMILK-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Medium.otf"; sourceTree = "<group>"; };
+		415434402A8886AC00BF542A /* LEMONMILK-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LEMONMILK-Regular.otf"; sourceTree = "<group>"; };
+		415434412A8886AC00BF542A /* Effra-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Effra-Light.ttf"; sourceTree = "<group>"; };
+		415434422A8886AC00BF542A /* Effra-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Effra-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-shoppingList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingList.release.xcconfig"; path = "Target Support Files/Pods-shoppingList/Pods-shoppingList.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-shoppingList-shoppingListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingList-shoppingListTests.debug.xcconfig"; path = "Target Support Files/Pods-shoppingList-shoppingListTests/Pods-shoppingList-shoppingListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-shoppingList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shoppingList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +124,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		41AD5CE92A888900000CBFA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				415434422A8886AC00BF542A /* Effra-Bold.ttf */,
+				4154343C2A8886AB00BF542A /* Effra-Heavy.ttf */,
+				415434412A8886AC00BF542A /* Effra-Light.ttf */,
+				4154343A2A8886AB00BF542A /* Effra-Medium.ttf */,
+				4154343E2A8886AC00BF542A /* Effra-Regular.ttf */,
+				4154343D2A8886AB00BF542A /* LEMONMILK-Bold.otf */,
+				4154343B2A8886AB00BF542A /* LEMONMILK-Light.otf */,
+				4154343F2A8886AC00BF542A /* LEMONMILK-Medium.otf */,
+				415434402A8886AC00BF542A /* LEMONMILK-Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +150,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				41AD5CE92A888900000CBFA4 /* Resources */,
 				13B07FAE1A68108700A75B9A /* shoppingList */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* shoppingListTests */,
@@ -242,7 +277,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415434482A8886AC00BF542A /* LEMONMILK-Medium.otf in Resources */,
+				4154344B2A8886AC00BF542A /* Effra-Bold.ttf in Resources */,
+				415434452A8886AC00BF542A /* Effra-Heavy.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				415434472A8886AC00BF542A /* Effra-Regular.ttf in Resources */,
+				4154344A2A8886AC00BF542A /* Effra-Light.ttf in Resources */,
+				415434462A8886AC00BF542A /* LEMONMILK-Bold.otf in Resources */,
+				415434442A8886AC00BF542A /* LEMONMILK-Light.otf in Resources */,
+				415434492A8886AC00BF542A /* LEMONMILK-Regular.otf in Resources */,
+				415434432A8886AC00BF542A /* Effra-Medium.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

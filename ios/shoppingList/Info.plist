@@ -51,5 +51,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Feather.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>LEMONMILK-Bold.otf</string>
+		<string>LEMONMILK-Light.otf</string>
+		<string>LEMONMILK-Medium.otf</string>
+		<string>LEMONMILK-Regular.otf</string>
+		<string>Effra-Bold.ttf</string>
+		<string>Effra-Heavy.ttf</string>
+		<string>Effra-Light.ttf</string>
+		<string>Effra-Medium.ttf</string>
+		<string>Effra-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
