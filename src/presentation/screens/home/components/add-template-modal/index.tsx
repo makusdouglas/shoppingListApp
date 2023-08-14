@@ -32,7 +32,6 @@ export const AddTemplateModal = React.forwardRef<
   const submit = () => {
     handleSubmit((data: AddTemplateForm) => {
       const id = Math.random().toString(36).substr(2, 9);
-      console.log({id, name: data.name, items: [], type: 'normal'});
       addToList({id, name: data.name, items: [], type: 'normal'});
 
       //   makeAsyncStorageAdapter().clear();

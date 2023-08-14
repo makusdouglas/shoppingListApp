@@ -58,7 +58,6 @@ export const TemplateListProvider: React.FC<React.PropsWithChildren> = ({
 
   const updateCachedList = useCallback(
     async (templateList: ListTemplateModel[]) => {
-      console.log('UPDATE', templateList);
       await setListTemplateList(templateList);
     },
     [],

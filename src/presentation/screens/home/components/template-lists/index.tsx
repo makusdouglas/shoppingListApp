@@ -14,9 +14,7 @@ export const TemplateLists: React.FC<TemplateListsProps> = ({
 }) => {
   const {COLORS} = useTheme();
   const {templateList} = useTemplateList();
-  const isEmpty = !templateList?.length;
 
-  console.log('type', typeof templateList);
   const emptyItem = {
     key: 'TEMPLATE_LISTS_EMPTY_ITEM',
     render: () => <EmptyItem onPress={onPressAddTemplate} />,
@@ -25,7 +23,6 @@ export const TemplateLists: React.FC<TemplateListsProps> = ({
   const templateLists = useMemo(() => {
     if (templateList.length === 0) return [emptyItem];
 
-    console.log('templateList length', templateList.length);
     if (!templateList.map) return [emptyItem];
     return templateList.map(item => ({
       key: item.id,
