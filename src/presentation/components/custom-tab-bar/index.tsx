@@ -38,7 +38,6 @@ export const customTabBar: React.FC<BottomTabBarProps> = ({
     }),
     {},
   );
-  console.log('routesKeyByName', routesKeyByName);
 
   return (
     <S.TabsWrapper>

@@ -13,12 +13,15 @@ export const darkTheme = {
     BACKGROUND_DARKER_400: 'rgba(0,0,0,0.4)',
     BACKGROUND_DARKER_500: 'rgba(0,0,0,0.5)',
     BACKGROUND_DARKER_800: 'rgba(0, 0, 0, 0.8)',
-
+    HIGHLIGHT: '#D81159',
     TEXT: {
       PRIMARY: '#FFF',
       PRIMARY_700: hexToRgba('#FFF', 70),
       PRIMARY_800: hexToRgba('#FFF', 80),
       PRIMARY_900: hexToRgba('#FFF', 90),
+      INACTIVE: '#CCCCCC',
+      INACTIVE_100: '#949494',
+      INACTIVE_500: '#DDDDDD',
     },
     CARDS: {
       TEXT_COLOR: '#FFF',

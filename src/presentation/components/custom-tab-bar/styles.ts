@@ -26,7 +26,7 @@ export const TabContainer = styled.View`
   padding: ${metrics.moderateScale(4)}px;
   border-radius: ${metrics.moderateScale(200)}px;
   background-color: ${({theme}) => theme.COLORS.BACKGROUND_DARKER_800};
-  margin-bottom: ${metrics.moderateScale(12)}px;
+  margin-bottom: ${metrics.moderateScale(16)}px;
 `;
 
 export const TabButton = styled.TouchableOpacity<DefaultProps>`

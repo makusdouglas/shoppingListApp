@@ -1,3 +1,4 @@
+import {FlatList} from 'react-native';
 import styled from 'styled-components/native';
 
 export const Title = styled.Text`
@@ -8,5 +9,9 @@ export const Title = styled.Text`
 `;
 
 export const Screen = styled.ScrollView`
+  background: ${({theme}) => theme.COLORS.BACKGROUND};
+`;
+
+export const Container = styled(FlatList<IFlatListItem>)`
   background: ${({theme}) => theme.COLORS.BACKGROUND};
 `;
