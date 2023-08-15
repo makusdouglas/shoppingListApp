@@ -1,3 +1,7 @@
+# Figma
+[ShoppingList App](https://www.figma.com/file/w8n5iKRY9AS49V7RkaUFV5/APP---SHOPPING-LIST?type=design&node-id=301%3A931&mode=dev)
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
