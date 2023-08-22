@@ -30,3 +30,32 @@ export const SeeAll = styled.Text`
   color: ${({theme}) => theme.COLORS.TEXT.INACTIVE_500};
   text-transform: uppercase;
 `;
+
+export const ListItem = styled.TouchableOpacity`
+  background-color: ${({theme}) => theme.COLORS.BACKGROUND_SURFACE};
+  border-radius: ${metrics.moderateScale(16)}px;
+  padding: ${metrics.moderateScale(8)}px ${metrics.moderateScale(16)}px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: ${metrics.moderateScale(48)}px;
+`;
+
+export const LabelsContainer = styled.View`
+  flex-direction: column;
+`;
+
+export const ListItemTitle = styled.Text`
+  font-family: ${({theme}) => theme.fontFamily.LEMON_700};
+  font-size: ${metrics.moderateScale(14)}px;
+  color: ${({theme}) => theme.COLORS.TEXT.PRIMARY};
+`;
+export const ListItemQuantity = styled.Text`
+  font-family: ${({theme}) => theme.fontFamily.EFFRA_400};
+  font-size: ${metrics.moderateScale(12)}px;
+  color: ${({theme}) => theme.COLORS.TEXT.INACTIVE_500};
+`;
+
+export const SmallSpacer = styled.View`
+  height: ${metrics.verticalScale(4)}px;
+`;

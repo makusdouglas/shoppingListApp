@@ -1,18 +1,18 @@
 import {TopBar} from '@/presentation/components/top-bar';
 import * as S from './styles';
-import {useMemo, useRef} from 'react';
+import {useRef} from 'react';
 import {ActiveLists, TemplateLists} from './components';
 import {FloatActionButton} from '@/presentation/components/float-action-button';
 import {View} from 'react-native';
-import {AddTemplateModal} from './components/add-template-modal';
 import BottomSheet from '@gorhom/bottom-sheet';
 import {useFlatList} from '@/presentation/hooks';
 import {Portal} from 'react-native-portalize';
+import {CreateListModal} from '@/presentation/modals/create-list-modal';
 
 export const Home = () => {
   const bottomSheetRef = useRef<BottomSheet>(null);
 
-  const openAddTemplateModal = () => {
+  const openCreateListModal = () => {
     bottomSheetRef.current?.expand();
   };
 
@@ -21,9 +21,13 @@ export const Home = () => {
       key: 'TOP_BAR',
       render: () => <TopBar />,
     },
+    // {
+    //   key: 'TEMPLATE_LISTS',
+    //   render: () => <TemplateLists onPressAddTemplate={openCreateListModal} />,
+    // },
     {
-      key: 'TEMPLATE_LISTS',
-      render: () => <TemplateLists onPressAddTemplate={openAddTemplateModal} />,
+      key: 'ACTIVE_LISTS',
+      render: () => <ActiveLists onOpenCreateModal={openCreateListModal} />,
     },
   ]);
 
@@ -39,9 +43,9 @@ export const Home = () => {
         stickyHeaderIndices={keys}
         showsVerticalScrollIndicator={false}
       />
-      <FloatActionButton iconName="plus" onPress={openAddTemplateModal} />
+      <FloatActionButton iconName="plus" onPress={openCreateListModal} />
       <Portal>
-        <AddTemplateModal ref={bottomSheetRef} onClose={() => {}} />
+        <CreateListModal ref={bottomSheetRef} onClose={() => {}} />
       </Portal>
     </View>
   );
