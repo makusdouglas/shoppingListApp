@@ -1,8 +1,7 @@
 import React from 'react';
-import * as S from './styles';
 import Feather from 'react-native-vector-icons/Feather';
 import {useTheme} from 'styled-components';
-import {View} from 'react-native';
+import * as S from './styles';
 
 type EmptyItemProps = {
   onPress: () => void;

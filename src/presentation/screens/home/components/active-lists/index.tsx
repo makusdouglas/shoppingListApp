@@ -2,11 +2,12 @@ import React, {useMemo} from 'react';
 import {useFlatList, useList} from '@/presentation/hooks';
 import Feather from 'react-native-vector-icons/Feather';
 import {useTheme} from 'styled-components';
-import {Alert, TouchableOpacity, Vibration} from 'react-native';
+import {Alert, Vibration} from 'react-native';
 import {EmptyItem} from '../empty-item';
 
 import * as S from './styles';
-import {useNavigation} from '@react-navigation/native';
+import {NavigationProp, useNavigation} from '@react-navigation/native';
+import {PublicRoutes} from '@/main/router/public';
 
 type ActiveListsProps = {
   onOpenCreateModal: () => void;
@@ -17,7 +18,7 @@ export const ActiveLists: React.FC<ActiveListsProps> = ({
 }) => {
   const {COLORS} = useTheme();
   const {list} = useList();
-  const {navigate} = useNavigation();
+  const {navigate} = useNavigation<NavigationProp<PublicRoutes>>();
 
   const activeLists = list.filter(item => item?.done !== true);
 
