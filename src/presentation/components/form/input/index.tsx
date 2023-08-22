@@ -81,7 +81,7 @@ export const Input = React.forwardRef<TextInput, Props>(
               selectTextOnFocus={!disabled}
             />
             {!customError && !!fieldState.error?.message && (
-              <Text>{fieldState.error?.message}</Text>
+              <S.InputError>{fieldState.error?.message}</S.InputError>
             )}
           </S.Container>
         )}

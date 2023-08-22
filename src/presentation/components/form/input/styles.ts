@@ -28,3 +28,9 @@ export const IconContainer = styled.Pressable`
   transform: translateY(12px);
   z-index: 10;
 `;
+
+export const InputError = styled.Text`
+  color: ${({theme}) => theme.COLORS.TEXT.INACTIVE_500};
+  margin-top: ${metrics.verticalScale(4)}px;
+  font-size: ${metrics.moderateScale(12)}px;
+`;
