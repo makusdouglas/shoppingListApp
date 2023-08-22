@@ -9,15 +9,15 @@ export const TopBar = () => {
       </S.TopBarTitleContainer>
 
       <S.TopBarActionsContainer>
-        <S.TopBarAction>
+        {/* <S.TopBarAction>
           <Feather name="search" size={24} color="#fff" />
-        </S.TopBarAction>
+        </S.TopBarAction> */}
         <S.TopBarAction>
           <Feather name="user" size={24} color="#fff" />
         </S.TopBarAction>
-        <S.TopBarAction>
+        {/* <S.TopBarAction>
           <Feather name="settings" size={24} color="#fff" />
-        </S.TopBarAction>
+        </S.TopBarAction> */}
       </S.TopBarActionsContainer>
     </S.TopBarContainer>
   );

@@ -1,7 +1,8 @@
+import {PublicRoutes} from '@/main/router/public';
 import {EditListScreen} from '@/presentation/screens';
-import {ParamListBase, RouteProp, useRoute} from '@react-navigation/native';
+import {RouteProp, useRoute} from '@react-navigation/native';
 
-type RouteParams = RouteProp<ParamListBase, 'edit-list'>;
+type RouteParams = RouteProp<PublicRoutes, 'edit-list'>;
 
 export const MakeEditListScreen: React.FC = () => {
   const {params} = useRoute<RouteParams>();
