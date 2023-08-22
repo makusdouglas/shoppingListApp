@@ -1,5 +1,8 @@
-import {ActiveListProvider} from '@/presentation/constexts/active-list-context';
-import {TemplateListProvider} from '@/presentation/constexts/template-list-context';
+import {
+  ListProvider,
+  ActiveListProvider,
+  TemplateListProvider,
+} from '@/presentation/constexts';
 import React from 'react';
 
 export const ContextReducer: React.FC<React.PropsWithChildren> = ({
@@ -8,6 +11,7 @@ export const ContextReducer: React.FC<React.PropsWithChildren> = ({
   const providers = [
     ActiveListProvider,
     TemplateListProvider,
+    ListProvider,
     // up to down order is important (the first provider will be the last to wrap the children)
   ];
 
